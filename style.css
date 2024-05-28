@@ -1,58 +1,97 @@
-h1{
+body {
+    margin: 0;
+}
+
+h1 {
     font-size: 60px;
     font-family: Arial;
 }
-h3{
-    font-family: Arial;
-}
-h2{
+
+h2 {
     font-size: 40px;
     font-family: Arial;
 }
-p{
+
+h3 {
+    font-family: Arial;
+}
+
+p {
     font-family: Arial;
     font-size: 20px;
     color: dimgray;
-}                
-.highlight{
+}
+
+.highlight {
     color: orange;
 }
-.half-width{
+
+.half-width {
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-
 }
-.half-width img{
+
+.half-width img {
     width: 70%;
 }
-.top-BG{
-    background-image:url("IMAGES/top-banner.png") ;
+
+.top-BG {
+    background-image: url("IMAGES/top-banner.png");
     background-repeat: no-repeat;
 }
-section{
+
+section {
     height: 500px;
 }
-body{
-    margin: 0;
-} 
- .link-button{
+
+.link-button {
     text-decoration: none;
     background-color: orange;
     padding: 10px 20px;
     border-radius: 10px;
-color: white;
-font: bold;
-background-image: linear-gradient( 55deg, lightsalmon, tomato);
-
- }
- 
- .half-width img{
-    width: 70%;
+    color: white;
+    font: bold;
+    background-image: linear-gradient(55deg, lightsalmon, tomato);
 }
-.Dream{
+
+.Dream {
     background-image: url("IMAGES/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.half-width-box {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    width: 40%;
+    height: 55%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.footer {
+    background-image: url("IMAGES/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.container {
+    display: flex; /* Use flexbox */
+}
+
+.half-width-box {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    width: 40%;
+    height: 55%;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-sizing: border-box; 
+}
+#full{
+    border-left: 7px solid;
+}
+
+
